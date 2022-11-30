@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+.events-container {
+  width: 95%;
+  max-width: 730px;
+  background-color: #3a4b63;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+}
+.event-heading {
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: "Roboto";
+    margin-left: 15px;
+}
+.event-lists {
+    list-style-type: none;
+    padding: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px;
+}

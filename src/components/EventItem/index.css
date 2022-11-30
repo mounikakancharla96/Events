@@ -1,0 +1,39 @@
+.event-item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 8px;
+}
+.button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+.name {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "Roboto";
+    margin-left: 5px;
+    margin-bottom: 2px;
+    margin-top: 2px;
+}
+.location {
+    color: #f8fafc;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: "Roboto";
+    margin-left: 5px;
+    margin-bottom: 2px;
+    margin-top: 2px;
+}
+.active {
+  border: 2px solid #2dd4bf;
+  border-radius: 10px;
+}
+.image {
+  width: 200px;
+  height: 150px;
+  border: 2px solid transparent;
+  border-radius: 8px;
+}
